@@ -1,0 +1,50 @@
+<!--
+    Copyright (c) 2019 Sagar Gurtu
+    Licensed under the MIT License.
+    See License in the project root for license information.
+-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>ShareRef - Compartilhamento de artigos</title>
+    <link rel="stylesheet" href="css/index.css">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+            
+</head>
+
+<body>
+    <div id='leftSeek'>&lang;</div>
+    <div id='tabContainer'></div>
+    <div id='rightSeek'>&rang;</div>
+    <div class="navbar-fixed">
+        <nav class="light-blue darken-3">
+            <div class="">
+                
+                <ul class="">
+                <li><a class="waves-effect waves-light btn" id="btn-drive">Simcronizar com o drive</a></li>
+
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div id='backgroundInfo'>
+        <img id='backgroundLogo' src='assets/images/ufms.png' />
+        <div id='backgroundText'>
+            Abra um arquivo Ctrl + O
+        </div>
+        
+    </div>
+
+    <div id='viewContainer'>
+        <iframe id='viewer'></iframe>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
